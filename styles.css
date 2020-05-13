@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+	width: max-width;
+	height: 100px;
+	background-color: #6495ED;
+	display: flex;
+	padding: 10px;
+	align-items: center;
+}
+
+.page {
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.phone-container {
+	background-image: url("images/phone.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 450px;
+	width: 300px;
+  margin: auto;
+}
+
+
+.app-grid {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: space-around;
+	z-index: 1;
+}
+
+.app-grid-item {
+	padding-top: 120px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.app-grid-item button {
+	border: none;
+	background: none;
+	/*outline: none;*/
+}
